@@ -24,6 +24,7 @@ Hadoop install on Ubantu
 	How to change the owner and group
 	chgrp -R  vishal:root hadoop-2.8.2
 	chown -R  vishal:root spark
+	chown -R  vishal:root kafka
 	
 
 Scala Install  on Ubantu
