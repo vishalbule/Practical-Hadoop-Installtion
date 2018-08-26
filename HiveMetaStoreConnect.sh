@@ -74,4 +74,7 @@ Create hive-site.xml ( If not already present) in $HIVE_HOME/conf folder with th
       <value>hivepassword</value>
       <description>password for connecting to mysql server</description>
    </property>
-</configuration>    
+</configuration> 
+
+https://dzone.com/articles/how-configure-mysql-metastore
+https://saurzcode.in/2015/01/configure-mysql-metastore-hive/
