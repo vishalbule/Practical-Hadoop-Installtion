@@ -41,3 +41,15 @@ gedit hbase-site.xml
     <value>true</value>
   </property>
 </configuration>
+
+Start HBase Server
+-----------------------
+start-hbase.sh
+
+start hbase shell
+----------------------
+hbase shell
+
+Stop HBase Server
+-----------------------
+stop-hbase.sh
