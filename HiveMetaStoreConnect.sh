@@ -35,13 +35,6 @@ mysql> CREATE USER 'hiveuser'@'%' IDENTIFIED BY 'hivepassword';
 mysql> GRANT all on *.* to 'hiveuser'@localhost identified by 'hivepassword';
 mysql>  flush privileges;
 
-
-create table test_vishal(id int, name string);
-
-mysql -u root -p
-Enter password:
-mysql> use metastore; 
-
 Create hive-site.xml ( If not already present) in $HIVE_HOME/conf folder with the configuration below
 -----------------------------------------------------------------------------------------------------------
 <configuration>
@@ -75,6 +68,15 @@ Create hive-site.xml ( If not already present) in $HIVE_HOME/conf folder with th
       <description>password for connecting to mysql server</description>
    </property>
 </configuration> 
+
+create table test_vishal(id int, name string);
+
+mysql -u root -p
+Enter password:
+mysql> use metastore; 
+mysql> select * from TBLS;
+
+
 
 https://dzone.com/articles/how-configure-mysql-metastore
 https://saurzcode.in/2015/01/configure-mysql-metastore-hive/
