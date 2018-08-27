@@ -1,3 +1,16 @@
+Download hadoop tar.gz file from hadoop site
+------------------------------------------------
+Get latest links of hadoop .tar.gz from below site. Click on binary link and copy .tar.gz link
+http://hadoop.apache.org/releases.html
+
+Extract .tar.gz file
+-------------------------
+tar zxvf /usr/local/hadoop-2.8.1.tar.gz
+
+How to change the owner and group
+-----------------------------------
+chgrp -R  vishal:root hadoop-2.8.2
+
 Java install in Ubantu
 --------------------------------
 
@@ -12,7 +25,7 @@ Java install in Ubantu
 	export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 
 	How to uninstall JDK from Ubuntu 16.04?
-		           https://www.roseindia.net/answers/viewqa/linux/32405-How-to-uninstall-JDK-from-Ubuntu-16-04-.html
+	https://www.roseindia.net/answers/viewqa/linux/32405-How-to-uninstall-JDK-from-Ubuntu-16-04-.html
 
 
 Hadoop install on Ubantu
@@ -20,9 +33,9 @@ Hadoop install on Ubantu
 
 	Installing Hadoop in Pseudo Distributed Mode
 	https://www.tutorialspoint.com/hadoop/hadoop_enviornment_setup.htm
+	http://hadooptutorials.info/2017/09/14/hadoop-installation-on-signle-node-cluster/
 	
 	How to change the owner and group
-	chgrp -R  vishal:root hadoop-2.8.2
 	chown -R  vishal:root spark
 	chown -R  vishal:root kafka
 	
@@ -49,4 +62,4 @@ sudo apt-get install sbt
 
 sudo apt-get purge
 
-http://hadooptutorials.info/2017/09/14/hadoop-installation-on-signle-node-cluster/
+
