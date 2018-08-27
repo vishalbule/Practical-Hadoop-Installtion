@@ -1,5 +1,13 @@
+Get latest version of “hive-*-bin.tar.gz” file link from below official Hive site
+---------------------------------------------------------------------------------------
+https://hive.apache.org/downloads.html
+
+Extract .tar.gz file
+-------------------------
 sudo tar -xzf apache-hive-1.2.2-bin.tar.gz
 
+How to change the owner and group
+-----------------------------------
 sudo chown -R  vishal:root hive-1.2.2
 
 
