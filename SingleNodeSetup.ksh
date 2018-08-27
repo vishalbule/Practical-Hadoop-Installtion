@@ -48,3 +48,5 @@ sudo apt-get update
 sudo apt-get install sbt
 
 sudo apt-get purge
+
+http://hadooptutorials.info/2017/09/14/hadoop-installation-on-signle-node-cluster/
