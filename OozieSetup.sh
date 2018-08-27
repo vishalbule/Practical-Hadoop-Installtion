@@ -6,3 +6,7 @@ https://oozie.apache.org/
 How to change the owner and group
 -----------------------------------
 sudo chown -R  vishal:root oozie-5.0.0
+
+setup maven
+--------------
+https://www.howtoforge.com/tutorial/ubuntu-apache-maven-installation/
