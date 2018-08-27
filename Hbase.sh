@@ -1,7 +1,11 @@
 Download HBase tar.gz file from below official site
 -------------------------------------------------------
 https://hbase.apache.org
-  
+
+Extract .tar.gz file
+-------------------------
+sudo tar -zxf hbase-1.4.6*
+
 How to change the owner and group
 -----------------------------------
 sudo chown -R  vishal:root hbase-1.4.6
