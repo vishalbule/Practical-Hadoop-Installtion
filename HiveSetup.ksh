@@ -56,3 +56,5 @@ Hive for additional debugging information (Optional)
 ---------------------------------------------------------
 cp hive-exec-log4j.properties.template  hive-exec-log4j.properties
 cp hive-log4j.properties.template hive-log4j.properties
+
+http://hadooptutorials.info/2017/09/15/part-2-install-hive/
