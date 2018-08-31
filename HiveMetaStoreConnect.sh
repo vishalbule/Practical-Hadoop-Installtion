@@ -75,6 +75,19 @@ mysql -u root -p
 Enter password:
 mysql> use metastore; 
 mysql> select * from TBLS;
+mysql> select * from COLUMNS_V2;
+mysql> select * from  SDS;
+
+Another useful query if you want to search what other tables a particular column belongs to
+
+SELECT c.column_name, tbl_name, c.comment, c.type_name, c.integer_idx,
+tbl_id, create_time, owner, retention, t.sd_id, tbl_type, input_format, is_compressed, location,
+num_buckets, output_format, serde_id, s.cd_id
+FROM TBLS t, SDS s, COLUMNS_V2 c
+WHERE t.SD_ID = s.SD_ID
+AND s.cd_id = c.cd_id
+order by create_time
+
 
 
 
