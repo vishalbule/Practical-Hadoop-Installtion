@@ -34,14 +34,14 @@ export HIVE_AUX_JARS_PATH=$HIVE_AUX_JARS_PATH
 
 Create Hive database directory on HDFS
 -----------------------------------------
-hadoop fs -mkdir /usr/
-hadoop fs -mkdir /usr/hive
-hadoop fs -mkdir /usr/hive/warehouse
+hadoop fs -mkdir /user/
+hadoop fs -mkdir /user/hive
+hadoop fs -mkdir /user/hive/warehouse
 hadoop fs -mkdir /tmp
 
 Set READ/WRITE permission for warehouse and temporary directory
 ----------------------------------------------------------------
-hadoop fs -chmod g+w /usr/hive/warehouse
+hadoop fs -chmod g+w /user/hive/warehouse
 hadoop fs -chmod g+w /tmp
 
 Edit Hive environment variables
